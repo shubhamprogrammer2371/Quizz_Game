@@ -10,8 +10,7 @@ int main()
     printf("You will get 5 marks for correct answer and -1 marks will be deducted if the answer is not correct\n\n");
     while (1)
     {
-        printf("> Press 1 to Start the Game \n");
-        printf("> Press 0 to Quit the Game \n");
+        printf("> Press 1 to Start the Game \n> Press 0 to Quit the Game \n\nEnter your choice : ");
 
         scanf("%d", &i);
         if (i == 1)
@@ -24,13 +23,13 @@ int main()
             if (ans == 2)
             {
                 marks += 5;
-                printf("---Correct answer\n");
+                printf("---Correct answer\n\n");
             }
             else
             {
                 marks -= 1;
-                printf("---Wrong answer \n");
-                printf("The correct answer is option \"2\"\n");
+                printf("---Wrong answer\n");
+                printf("The correct answer is option \"2\"\n\n");
             }
             //************************************************************************************
             printf("B) Which one is the first Web Browser invented in 1990?\n1) Internet Explorer\n2) Mosaic\n3) Mozilla\n4) Nexus\n");
@@ -40,13 +39,13 @@ int main()
             if (ans == 4)
             {
                 marks += 5;
-                printf("---Correct answer\n");
+                printf("---Correct answer\n\n");
             }
             else
             {
                 marks -= 1;
                 printf("---Wrong answer \n");
-                printf("The correct answer is option \"4\"\n");
+                printf("The correct answer is option \"4\"\n\n");
             }
             //************************************************************************************
             printf("C) First Computer Virus is known as?\n1) Rabbit\n2) Creper Virus\n3) Elk Cloner\n4) SCA Virus\n");
@@ -56,13 +55,13 @@ int main()
             if (ans == 2)
             {
                 marks += 5;
-                printf("---Correct answer\n");
+                printf("---Correct answer\n\n");
             }
             else
             {
                 marks -= 1;
                 printf("---Wrong answer \n");
-                printf("The correct answer is option \"2\"\n");
+                printf("The correct answer is option \"2\"\n\n");
             }
             //************************************************************************************
             printf("D) Firewall in computer is used for?\n1) Security\n2) Data Transmission\n3) Monitoring\n4) Authentication\n");
@@ -72,13 +71,13 @@ int main()
             if (ans == 1)
             {
                 marks += 5;
-                printf("---Correct answer\n");
+                printf("---Correct answer\n\n");
             }
             else
             {
                 marks -= 1;
                 printf("---Wrong answer \n");
-                printf("The correct answer is option \"1\"\n");
+                printf("The correct answer is option \"1\"\n\n");
             }
             //************************************************************************************
             printf("E) Which of the following is not a Database Management software?\n1) MySQl\n2) Oracle\n3) Cobal\n4) Sybase\n");
@@ -88,13 +87,13 @@ int main()
             if (ans == 3)
             {
                 marks += 5;
-                printf("---Correct answer\n");
+                printf("---Correct answer\n\n");
             }
             else
             {
                 marks -= 1;
                 printf("---Wrong answer \n");
-                printf("The correct answer is option \"1\"\n");
+                printf("The correct answer is option \"1\"\n\n");
             }
             printf("You have scored %d marks in this amazing quizz :)\n", marks);
         }
